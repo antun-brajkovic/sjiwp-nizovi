@@ -1,4 +1,4 @@
-var names = ["John", "Jane", "Bob", "Mike"];
+var names = ['John', 'Jane', 'Bob',, 'Mike'];
 
 // 1. Pomoću petlje napravite iteraciju kroz niz i ispisite u konzolu sve elemente niza.
 for(let i = 0; i < names.length; i++) {
@@ -23,5 +23,6 @@ for(let i = 0; i < names.length; i++) {
         tmp.push(names[i]);
     }
 }
+names = tmp.slice();
 
-// console.log(names); // debug info
+//console.log(names); // debug info
